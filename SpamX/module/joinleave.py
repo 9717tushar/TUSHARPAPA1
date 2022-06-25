@@ -18,7 +18,7 @@ async def join(xspam: Client, e: Message):
         return await e.reply_text("Can't join a chat with chat id. Give username or invite link.")
     try:
       await xspam.join_chat(chat)
-      await e.reply_text("**Join Successfully ✅ **")
+      await e.reply_text("**𝙅𝙊𝙄𝙉𝙀𝘿 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇 😎**")
     except Exception as ex:
         await e.reply_text(f"**ERROR:** \n\n{str(ex)}")
     if LOGS_CHANNEL:
@@ -36,7 +36,7 @@ async def leave(xspam: Client, e: Message):
         chat = rizoel[0]
         try:
            await xspam.leave_chat(chat)
-           await e.reply_text("**Left Successfully ✅ **")
+           await e.reply_text("**𝙇𝙀𝙁𝙏 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇 😎 **")
         except Exception as ex:
            await e.reply_text(f"**ERROR:** \n\n{str(ex)}")
     else:
@@ -48,7 +48,7 @@ async def leave(xspam: Client, e: Message):
               return e.reply_text("**Error**")
         try:
            await xspam.leave_chat(chat)
-           await e.reply_text("**Left Successfully ✅ **")
+           await e.reply_text("**𝙇𝙀𝙁𝙏 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇 😎**")
         except Exception as ex:
            await e.reply_text(f"**ERROR:** \n\n{str(ex)}")
         if LOGS_CHANNEL:
