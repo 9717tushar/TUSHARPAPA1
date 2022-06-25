@@ -57,10 +57,10 @@ async def get_time(seconds: int) -> str:
 async def ping(_, e: Message):       
       start = datetime.datetime.now()
       uptime = await get_time((time.time() - start_time))
-      Fuk = await e.reply("**Pong !!**")
+      Fuk = await e.reply("**𝘾𝙃𝙐𝙏 🥵**")
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
-      await Fuk.edit_text(f"⌾ {pongg} ⌾ \n\n ༝ ᴘɪɴɢ: `{ms}` ᴍs \n ༝ ᴜᴘᴛɪᴍᴇ: `{uptime}` \n ༝ ᴠᴇʀsɪᴏɴ: `{__version__}`")
+      await Fuk.edit_text(f"⌾ {pongg} ⌾ \n\n ༝ 𝘾𝙃𝙐𝙏: `{ms}` ᴍs \n ༝ ᴜᴘᴛɪᴍᴇ: `{uptime}` \n ༝ ᴠᴇʀsɪᴏɴ: `{__version__}`")
 
 
 
