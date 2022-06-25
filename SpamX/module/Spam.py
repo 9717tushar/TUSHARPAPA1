@@ -57,7 +57,7 @@ async def delayspam(xspam: Client, e: Message):
     if len(Rizoelop) == 2:
        counts = int(Rizoelop[0])
        if int(e.chat.id) in GROUP:
-            return await e.reply_text("**Sorry !! i Can't Spam Here.**")
+            return await e.reply_text("*𝙄 𝘾𝘼𝙉'𝙏 𝙎𝙋𝘼𝙈 𝙃𝙀𝙍𝙀 𝙎𝙄𝙍*")
        msg = str(Rizoelop[1])
        if re.search(Owners.lower(), msg.lower()):
             return await e.reply("**Sorry !!** I can't Spam On @RiZoeLX's owner")
