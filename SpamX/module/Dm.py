@@ -33,7 +33,7 @@ async def dmraid(xspam: Client, e: Message):
                 await e.reply_text(text)
           else:
               counts = int(Rizoel[0])
-              await e.reply_text("⚜️ Dm Raid Strated Successfully ⚜️")
+              await e.reply_text("⚔️𝘿𝙈 𝙈𝘼𝙄 𝘾𝙃𝙐𝘿𝘼𝙄 𝙎𝙏𝘼𝙍𝙏⚔️")
               for _ in range(counts):
                     reply = choice(RAID)
                     msg = f"{reply}"
@@ -54,7 +54,7 @@ async def dmraid(xspam: Client, e: Message):
                 await e.reply_text(text)
           else:
               counts = int(Rizoel[0])
-              await e.reply_text("⚜️ Dm Raid Strated Successfully ⚜️")
+              await e.reply_text("⚔️𝘿𝙈 𝙈𝘼𝙄 𝘾𝙃𝙐𝘿𝘼𝙄 𝙎𝙏𝘼𝙍𝙏⚔️")
               for _ in range(counts):
                     reply = choice(RAID)
                     msg = f"{reply}"
@@ -86,7 +86,7 @@ async def dm(xspam: Client, e: Message):
                 await e.reply_text(text)
           else:
               msg = str(Rizoel[1])
-              await e.reply_text("🔸 Message Delivered 🔸")
+              await e.reply_text("⚔️𝘿𝙊𝙉𝙀 𝙏𝙐𝙎𝙃𝘼𝙍 𝙎𝙄𝙍⚔️")
               await xspam.send_message(id, msg)
       elif e.reply_to_message:
           user_id = e.reply_to_message.from_user.id
@@ -103,7 +103,7 @@ async def dm(xspam: Client, e: Message):
                 await e.reply_text(text)
           else:
               msg = str(Rizoel[0])
-              await e.reply_text("🔸 Message Delivered 🔸️")
+              await e.reply_text("⚔️𝘿𝙊𝙉𝙀 𝙏𝙐𝙎𝙃𝘼𝙍 𝙎𝙄𝙍⚔️")
               await xspam.send_message(id, msg)
       else:
           await xspam.reply_text(Usage)
@@ -135,7 +135,7 @@ async def dmspam(xspam: Client, e: Message):
                 await e.reply_text(text)
           else:
               counts = int(Rizoelop[0])
-              await e.reply_text("☢️ Dm Spam Strated ☢️")
+              await e.reply_text("⚔️𝘿𝙈 𝙈𝘼𝙄 𝘾𝙃𝙐𝘿𝘼𝙄 𝙎𝙏𝘼𝙍𝙏⚔️")
               for _ in range(counts):
                     await xspam.send_message(id, msg)
                     await asyncio.sleep(0.10)
@@ -155,7 +155,7 @@ async def dmspam(xspam: Client, e: Message):
           else:
               counts = int(Rizoel[0])
               msg = str(Rizoelop[0])
-              await e.reply_text("☢️ Dm Spam Strated ☢️")
+              await e.reply_text("⚔️𝘿𝙈 𝙈𝘼𝙄 𝘾𝙃𝙐𝘿𝘼𝙄 𝙎𝙏𝘼𝙍𝙏⚔️")
               for _ in range(counts):
                     await xspam.send_message(id, msg)
                     await asyncio.sleep(0.10)
